@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titanic Survival Prediction</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1, h2, h3 { color: #333; }
-        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
-    </style>
-</head>
-<body>
+
        
 <h2>Dataset Overview</h2>
  <h1>Titanic Survival Prediction</h1>
