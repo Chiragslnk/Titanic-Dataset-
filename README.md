@@ -12,11 +12,12 @@
     </style>
 </head>
 <body>
-    <h1>Titanic Survival Prediction</h1>
-    <p>This project analyzes the Titanic dataset and builds a logistic regression model to predict passenger survival based on age, fare, class, and gender.</p>
-    
+       
 <h2>Dataset Overview</h2>
-    <ul>
+ <h1>Titanic Survival Prediction</h1>
+    <p>This project analyzes the Titanic dataset and builds a logistic regression model to predict passenger survival based on age, fare, class, and gender.</p>
+
+<ul>
         <li><strong>PassengerId:</strong> Unique identifier</li>
         <li><strong>Survived:</strong> 0 = No, 1 = Yes</li>
         <li><strong>Pclass:</strong> Passenger class (1st, 2nd, 3rd)</li>
