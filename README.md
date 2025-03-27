@@ -28,34 +28,8 @@
     
 <h2>Installation</h2>
     <pre><code>pip install numpy pandas matplotlib seaborn scikit-learn</code></pre>
-    
-<h2>Usage</h2>
-    <pre><code>import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
 
-# Load dataset
-titanic_dataset = pd.read_csv('tested.csv')
-
-# Data preprocessing
-titanic_dataset.drop(columns=['Cabin'], inplace=True)
-titanic_dataset['Age'].fillna(titanic_dataset['Age'].mean(), inplace=True)
-titanic_dataset['Embarked'].fillna('S', inplace=True)
-
-# Display dataset information
-titanic_dataset.info()</code></pre>
     
 <h2>Results</h2>
     <p>After data preprocessing, a logistic regression model can be trained to predict survival rates. The model's accuracy can be evaluated using <code>accuracy_score</code> from <code>sklearn.metrics</code>.</p>
     
-<h2>Contributing</h2>
-    <p>Feel free to fork this repository and contribute improvements or additional analyses.</p>
-    
-<h2>License</h2>
-    <p>This project is licensed under the MIT License.</p>
-</body>
-</html>
